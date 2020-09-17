@@ -309,6 +309,38 @@ padding-left: var(--standard-margin);
   }
 }
 
+@supports (display: grid) {
+  .contact, #contact-form {
+    max-width: 400px;
+    margin: 3rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem 2.5rem;
+    padding-left: 0;
+  }
+
+  .contact__item:first-child {
+    grid-area: 1/1/1/3;
+    margin: 0;
+  }
+
+  #contact-form {
+    grid-gap: 1rem;
+  }
+
+  #contact-message__detail {
+    grid-area: 4/2/4/3;
+    font-size: 12px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }
+
+  .button-wrapper {
+    grid-area: 5/1/5/3;
+    text-align: center;
+  }
+}
+
 @media (max-width: 500px) {
   .projects {
     grid-template-columns: 1fr;

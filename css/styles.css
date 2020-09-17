@@ -102,7 +102,7 @@ a:active {
   text-decoration: none;
 }
 
-main, form {
+main {
 padding-left: var(--standard-margin);
 }
 

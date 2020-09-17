@@ -309,6 +309,31 @@ padding-left: var(--standard-margin);
   }
 }
 
+.contact, #contact-form {
+  max-width: 400px;
+  margin: 3rem auto;
+  padding-left: 0;
+}
+
+#contact-address {
+  float: left;
+  margin-right: 3rem;
+}
+
+.standard-label {
+  display: block;
+}
+
+#contact-message__detail {
+  font-size: 12px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.page-footer {
+  clear: both;
+}
+
 @supports (display: grid) {
   .contact, #contact-form {
     max-width: 400px;

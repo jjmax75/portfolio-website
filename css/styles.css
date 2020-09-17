@@ -170,7 +170,7 @@ padding-left: var(--standard-margin);
   margin: 1rem auto;
 }
 
-.button {
+.button, #contact-form__submit {
   border: none;
   font-family: inherit;
   background-color: var(--primary-color);
@@ -182,16 +182,16 @@ padding-left: var(--standard-margin);
   transition: opacity 0.3s;
 }
 
-.button:visited {
+.button:visited, #contact-form__submit:visited {
   color: var(--secondary-text-color);
 }
 
-.button:hover, .button:focus {
+.button:hover, .button:focus, #contact-form__submit:hover, #contact-form__submit:focus {
   cursor: pointer;
   opacity: 0.7;
 }
 
-.button:active {
+.button:active, #contact-form__submit:active  {
   color: var(--secondary-text-color);
 }
 

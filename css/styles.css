@@ -369,6 +369,12 @@ padding-left: var(--standard-margin);
   .projects {
     grid-template-columns: 1fr;
   }
+  .contact {
+    grid-template-columns: 1fr;
+  }
+  .contact__item:first-child {
+    grid-area: auto/auto/auto/auto;
+  }
 }
 
 @media (min-width: 500px) and (max-width: 750px) {

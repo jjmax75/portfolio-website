@@ -225,10 +225,10 @@ padding-left: var(--standard-margin);
 
 @keyframes cloud-rise {
   from {
-    transform: translate(0, 0);
+    transform: translate(0, 0) rotate(0.1deg);
   }
   to {
-    transform: translate(-380px, 80px);
+    transform: translate(-380px, 80px) rotate(0.1deg);
   }
 }
 

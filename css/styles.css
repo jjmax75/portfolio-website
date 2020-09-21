@@ -220,7 +220,7 @@ padding-left: var(--standard-margin);
 }
 
 #path15372, #path15376 {
-  animation: cloud-move 60s infinite alternate ease-in-out;
+  animation: cloud-move 80s infinite alternate ease-in-out;
 }
 
 @keyframes cloud-rise {
@@ -233,7 +233,7 @@ padding-left: var(--standard-margin);
 }
 
 #path14382, #path14386 {
-  animation: cloud-rise 40s infinite alternate ease-in;
+  animation: cloud-rise 65s infinite alternate ease;
 }
 
 @keyframes cloud-circle-grow {

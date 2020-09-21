@@ -318,7 +318,7 @@ padding-left: var(--standard-margin);
   max-width: 400px;
   margin: auto;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-gap: 0.75rem 2.5rem;
   padding-left: 0;
 }

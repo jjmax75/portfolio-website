@@ -329,7 +329,7 @@ padding-left: var(--standard-margin);
 }
 
 #contact-form {
-  grid-gap: 1rem;
+  grid-gap: 0;
 }
 
 #contact-form h2 {

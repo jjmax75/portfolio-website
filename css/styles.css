@@ -158,6 +158,11 @@ padding-left: var(--standard-margin);
   opacity: 0.7;
 }
 
+.social-media__item-image {
+  width: 30px;
+  height: 30px;
+}
+
 .bio {
   text-align: center;
 }

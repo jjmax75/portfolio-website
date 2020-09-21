@@ -360,6 +360,10 @@ padding-left: var(--standard-margin);
   text-align: center;
 }
 
+#contact-form__submit {
+  padding: 15px 18px;
+}
+
 @media (max-width: 500px) {
   .projects {
     grid-template-columns: 1fr;

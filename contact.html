@@ -48,15 +48,18 @@
     </div>
   </main>
   <form action="#" method="post" id="contact-form">
-    <label class="standard-label" for="contact-email">Email:</label>
+    <h2 class="headings__font-family">Send me a message</h2>
+    <label class="standard-label required-input" for="contact-name">Name</label>
+    <input type="text" id="contact-name" required>
+    <label class="standard-label required-input" for="contact-email">Email:</label>
     <input type="email" id="contact-email" required>
     <label class="standard-label" for="contact-tel">Phone:</label>
-    <input type="tel" maxlength="11" id="contact-tel">
-    <label class="standard-label" for="contact-message">Message:</label>
+    <input type="tel" id="contact-tel">
+    <label class="standard-label required-input" for="contact-message">Message:</label>
     <textarea maxlength="240" id="contact-message" required></textarea>
     <p class="contact__item" id="contact-message__detail">max. 240 characters<p>
     <div class="button-wrapper">
-      <input type="submit" value="Send message" id="contact-form__submit">
+      <input type="submit" value="Send" id="contact-form__submit">
     </div>
   </form>
   <footer class="page-footer">
